@@ -18,7 +18,6 @@ int main()
     char choice='y';
     bool isRunning=true;
     
-
     srand(time(0));
 
     cout << "\n\t ============== WELCOME TO CASINO WORLD =================" << endl;
@@ -48,7 +47,6 @@ int main()
                 balance += bettingAmount * 10;
                 cout << "\n\n You are in luck! You have won " << bettingAmount * 10;
 
-
             }
             else {
                 cout << "\n\n Bad luck! Maybe next time. You lost " << bettingAmount * 10;
@@ -66,7 +64,6 @@ int main()
                 cout << "\n\n You have balance of:$ " << balance;
                 
                 }
-                               
             };
 
         cout << "Do you want to play again? (Y / y) ";
